@@ -10,7 +10,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, "h:p:")
     except getopt.GetoptError:
-        print('VDSLChecker.py -h <houseNumber> -p <postCode>')
+        print('FTTCChecker.py -h <houseNumber> -p <postCode>')
         sys.exit(2)
     for opt, arg in opts:
         if opt in ("-h", "--houseNumber"):
